@@ -7,7 +7,7 @@ const Header = () => {
         <li><Link>Skills</Link></li>
     </>
     return (
-        <div className="navbar px-2 md:px-8 lg:px-20 mb-24">
+        <div className="navbar px-2 md:px-8 lg:px-20 ">
             <div className="navbar-start">
                 <Link className="btn btn-outline normal-case text-2xl text-white">
                     <span className='text-[#01d293] '>M</span>D
