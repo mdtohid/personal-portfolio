@@ -2,7 +2,7 @@ import React from 'react';
 import portfolioImg from '../../img/portfolioImg.jpg';
 const Intro = () => {
     return (
-        <div className='flex flex-col md:flex-row justify-center items-center gap-y-20 h-screen'>
+        <div id='home' className='flex flex-col md:flex-row justify-center items-center gap-y-20 h-screen'>
             <div className='text-start w-full lg:w-6/12 '>
                 <p className='flex items-center'>
                 <hr className='w-8 border-[#01d293] me-1'/>

@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     const navbarLi = <>
-        < li > <Link>About</Link></li>
-        <li><Link>Skills</Link></li>
+        < li> <a href='#home'>Home</a></li>
+        <li><a href='#skills'>Skills</a></li>
+        <li><a href='#projects'>Projects</a></li>
     </>
     return (
-        <div className="navbar px-2 md:px-8 lg:px-20 ">
+        <div className="sticky top-0 z-10 navbar px-2 md:px-8 lg:px-20 bg-[#0e1630]">
             <div className="navbar-start">
                 <Link className="btn btn-outline normal-case text-2xl text-white">
                     <span className='text-[#01d293] '>M</span>D

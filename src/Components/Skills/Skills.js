@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='my-20'>
+        <div id='skills' className='py-20'>
             <p className='flex items-center'>
                 <hr className='w-8 border-[#01d293] me-1' />
                 <span className='text-[#01d293] text-xl my-5'>Skills</span>
@@ -21,7 +21,7 @@ const Skills = () => {
                 <button className="btn btn-sm rounded-full text-cyan-600">Node Js</button>
             </div>
             <h1 className='text-4xl text-center my-10 text-[#01d293]'>Highlighted Skills</h1>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 '>
                 <div className="card bg-[#1e2231] shadow-xl pb-14">
                     <h1 className='text-center text-2xl my-3'>HTML</h1>
                     <figure className="px-10 pt-10">
