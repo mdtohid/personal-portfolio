@@ -14,7 +14,7 @@ const Projects = () => {
             <h1 className='text-4xl my-5 text-center text-[#fff]'>My Projects</h1>
             <p className='text-xl mb-10 text-center'>These are Some of my recent projects done past 5-6 months.</p>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-20  lg:gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-20  lg:gap-6'>
                 <div className='projectImg '>
                     <img src={img1} alt="" />
                     <div className='projectContent flex flex-col items-center justify-center gap-3'>

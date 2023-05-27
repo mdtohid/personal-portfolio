@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,9 +7,10 @@ const Header = () => {
         < li> <a href='#home'>Home</a></li>
         <li><a href='#skills'>Skills</a></li>
         <li><a href='#projects'>Projects</a></li>
+        <li><a href='#contact'>Contact</a></li>
     </>
     return (
-        <div className="sticky top-0 z-10 navbar px-2 md:px-8 lg:px-20 bg-[#0e1630]">
+        <div className="sticky top-0 z-10 navbar px-2 md:px-8 lg:px-28 bg-[#0e1630]">
             <div className="navbar-start">
                 <Link className="btn btn-outline normal-case text-2xl text-white">
                     <span className='text-[#01d293] '>M</span>D
@@ -22,7 +24,14 @@ const Header = () => {
                 <ul className="menu menu-horizontal px-1 hidden lg:flex">
                     {navbarLi}
                 </ul>
-                <a className="btn ">Get started</a>
+                <div className='flex gap-x-2'>
+                    <p>|</p>
+                    <Link>
+                    
+                    </Link>
+                    <Link>Li</Link>
+                    <Link>fb</Link>
+                </div>
 
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
