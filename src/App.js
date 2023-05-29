@@ -5,9 +5,10 @@ import Home from './Components/Home/Home';
 import { ToastContainer } from 'react-toastify';
 import Footer from './Components/Footer/Footer';
 
+
 function App() {
   return (
-    <div className="font-serif font-light bg-[#0e1630] text-[#808dad]">
+    <div className="App font-light bg-[#0e1630] text-[#808dad]">
       <Header></Header>
       <Home></Home>
       <ToastContainer/>

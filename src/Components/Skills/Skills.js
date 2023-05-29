@@ -3,12 +3,12 @@ import React from 'react';
 const Skills = () => {
     return (
         <div id='skills' className='py-20'>
-            <p className='flex items-center'>
+            <div className='flex items-center'>
                 <hr className='w-8 border-[#01d293] me-1' />
                 <span className='text-[#01d293] text-xl my-5'>Skills</span>
-            </p>
+            </div>
             <h1 className='text-4xl my-5 text-center text-[#fff]'>My Skills</h1>
-            <div className='grid grid-cols-3 md:grid-cols-5 flex-none lg:flex gap-4 mx-auto justify-center '>
+            <div className='grid grid-cols-3 md:grid-cols-5 flex-none xl:flex  gap-4 mx-auto justify-center '>
                 <button className="btn btn-sm rounded-full text-cyan-600">HTML5</button>
                 <button className="btn btn-sm rounded-full text-cyan-600">CSS3</button>
                 <button className="btn btn-sm rounded-full text-cyan-600">Bootstrap</button>

@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import fbImg from '../../img/facebook (1).png'
+import LiImg from '../../img/linkedin (1).png'
+import githubImg from '../../img/github.png'
 const Header = () => {
     const navbarLi = <>
         < li> <a href='#home'>Home</a></li>
@@ -12,25 +14,29 @@ const Header = () => {
     return (
         <div className="sticky top-0 z-10 navbar px-2 md:px-8 lg:px-28 bg-[#0e1630]">
             <div className="navbar-start">
-                <Link className="btn btn-outline normal-case text-2xl text-white">
+                <a href='#home' className="btn btn-outline normal-case text-2xl text-white">
                     <span className='text-[#01d293] '>M</span>D
                     <span className='text-[#01d293]'>.</span>
                     <span className='text-[#01d293] ms-1.5'>T</span>ohid
                     {/* <span className='text-[#01d293] ms-1'>R</span>ahman */}
-                </Link>
+                </a>
             </div>
 
             <div className="navbar-end">
                 <ul className="menu menu-horizontal px-1 hidden lg:flex">
                     {navbarLi}
                 </ul>
-                <div className='flex gap-x-2'>
+                <div className='flex gap-x-3'>
                     <p>|</p>
-                    <Link>
-                    
+                    <Link className='' to='https://www.facebook.com/md.tohidur.rahman.714'>
+                    <img src={fbImg} alt="" sizes="" srcset="" />
                     </Link>
-                    <Link>Li</Link>
-                    <Link>fb</Link>
+                    <Link to='https://www.linkedin.com/in/md-tohid-sagor-a02087262/'>
+                    <img src={LiImg} alt="" sizes="" srcset="" />
+                    </Link>
+                    <Link to='https://github.com/mdtohid'>
+                    <img src={githubImg} alt="" sizes="" srcset="" />
+                    </Link>
                 </div>
 
                 <div className="dropdown">

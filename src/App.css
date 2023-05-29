@@ -1,8 +1,26 @@
-.App {
-  text-align: center;
+/* Track */
+::-webkit-scrollbar {
+  height: 10px;
+  width: 8px; /* width of the entire scrollbar */
 }
 
-.App-logo {
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #01d293; /* color of the scrollbar handle */
+  border-radius: 2em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000; /* color of the scrollbar track */
+}
+
+.App {
+  font-family: 'Quicksand', sans-serif;
+  /* text-align: center; */
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +53,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

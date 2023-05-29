@@ -3,9 +3,12 @@ import { faEarthAsia, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import fbImg from '../../img/facebook (1).png'
+import LiImg from '../../img/linkedin (1).png'
+import githubImg from '../../img/github.png'
 
 const Contact = () => {
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
@@ -13,7 +16,7 @@ const Contact = () => {
     const onSubmit = (data) => {
         console.log(data);
 
-        fetch("http://localhost:5000/contact", {
+        fetch("https://portfolio-server-psi-seven.vercel.app/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -29,12 +32,12 @@ const Contact = () => {
     }
 
     return (
-        <div id='contact' className='flex justify-between w-full py-20'>
-            <div className='w-5/12 flex flex-col'>
-                <p className='flex items-center'>
+        <div id='contact' className='flex flex-col items-center gap-y-14 lg:flex-row justify-between w-full py-20'>
+            <div className='w-10/12 lg:w-5/12 flex flex-col'>
+                <div className='flex items-center'>
                     <hr className='w-8 border-[#01d293] me-1' />
                     <span className='text-[#01d293] text-xl'>Contact me</span>
-                </p>
+                </div>
                 <h1 className='text-3xl mt-5 mb-7 text-[#fff]'>Contact with me</h1>
                 <p className='text-lg'>
                     <FontAwesomeIcon className='me-4' icon={faLocationDot} style={{ color: "#01d293", }} />
@@ -46,9 +49,32 @@ const Contact = () => {
                     <FontAwesomeIcon icon={faEnvelope} className='me-3' style={{ color: "#01d293", }} />
                     sagormdtohid@gmail.com
                 </p>
+
+                <div className='flex gap-x-5 my-5'>
+                    <div className='flex flex-col w-14 items-center'>
+                        <Link to='https://www.facebook.com/md.tohidur.rahman.714'>
+                            <img src={fbImg} alt="" sizes="" srcset="" />
+                        </Link>
+                        <p className='text-sm'>facebook</p>
+                    </div>
+
+                    <div className='flex flex-col w-14 items-center'>
+                        <Link to='https://www.linkedin.com/in/md-tohid-sagor-a02087262/'>
+                            <img src={LiImg} alt="" sizes="" srcset="" />
+                        </Link>
+                        <p className='text-sm'>Linkedin</p>
+                    </div>
+
+                    <div className='flex flex-col w-14 items-center'>
+                        <Link to='https://github.com/mdtohid'>
+                            <img src={githubImg} alt="" sizes="" srcset="" />
+                        </Link>
+                        <p className='text-sm'>Github</p>
+                    </div>
+                </div>
             </div>
 
-            <form className='flex flex-col gap-y-5 w-5/12' onSubmit={handleSubmit(onSubmit)}>
+            <form className='flex flex-col gap-y-5 w-10/12 lg:w-5/12' onSubmit={handleSubmit(onSubmit)}>
                 <input
                     type='text' placeholder="Your Name" className="input input-bordered input-sm md:input-md w-full bg-[#1e2231]"
                     {...register("name", { required: true })}
