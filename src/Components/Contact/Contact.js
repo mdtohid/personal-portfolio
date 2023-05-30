@@ -59,7 +59,7 @@ const Contact = () => {
                     </div>
 
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://www.linkedin.com/in/md-tohid-sagor-a02087262/'>
+                        <Link to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
                             <img src={LiImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>Linkedin</p>

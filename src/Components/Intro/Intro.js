@@ -21,7 +21,7 @@ const Intro = () => {
 
                 <h3 className='text-2xl'>Front end Web Developer</h3>
 
-                <button className='btn btn-sm me-3 btn-success my-5'><a href="https://www.linkedin.com/in/md-tohid-sagor-a02087262/">Hire me</a> </button>
+                <button className='btn btn-sm me-3 btn-success my-5'><a href="https://www.linkedin.com/in/md-tohidur-rahman-a02087262/">Hire me</a> </button>
 
                 <button className='btn btn-sm  btn-outline btn-accent hover:text-[#808dad] my-5 animate__animated animate__pulse animate__faster animate__repeat-3'><a href={pdf}>Download Resume</a></button>
 
@@ -34,7 +34,7 @@ const Intro = () => {
                     </div>
 
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://www.linkedin.com/in/md-tohid-sagor-a02087262/'>
+                        <Link to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
                             <img src={LiImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>Linkedin</p>

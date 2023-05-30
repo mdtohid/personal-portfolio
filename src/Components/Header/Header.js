@@ -31,7 +31,7 @@ const Header = () => {
                     <Link className='' to='https://www.facebook.com/md.tohidur.rahman.714'>
                     <img src={fbImg} alt="" sizes="" srcset="" />
                     </Link>
-                    <Link to='https://www.linkedin.com/in/md-tohid-sagor-a02087262/'>
+                    <Link to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
                     <img src={LiImg} alt="" sizes="" srcset="" />
                     </Link>
                     <Link to='https://github.com/mdtohid'>
