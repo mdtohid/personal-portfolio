@@ -18,7 +18,7 @@ const Header = () => {
                     <span className='text-[#01d293] '>M</span>D
                     <span className='text-[#01d293]'>.</span>
                     <span className='text-[#01d293] ms-1.5'>T</span>ohid
-                    {/* <span className='text-[#01d293] ms-1'>R</span>ahman */}
+                    {/* <span className='text-[#01d293] ms-1'>R</span>ahman sagor */}
                 </a>
             </div>
 
