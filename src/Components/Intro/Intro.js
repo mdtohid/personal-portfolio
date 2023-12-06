@@ -21,9 +21,9 @@ const Intro = () => {
 
                 <h3 className='text-2xl'>Front end Web Developer</h3>
 
-                <button className='btn btn-sm me-3 btn-success my-5'><a  href="https://www.linkedin.com/in/md-tohidur-rahman-a02087262/" target="_blank" rel='noreferrer'>Hire me</a> </button>
+                <Link to="https://www.linkedin.com/in/md-tohidur-rahman-a02087262/" target="_blank" className='btn btn-sm me-3 btn-success my-5'>Hire me</Link>
 
-                <button className='btn btn-sm  btn-outline btn-accent hover:text-[#808dad] my-5 animate__animated animate__pulse animate__faster animate__repeat-3'><a href={pdf} target="_blank" rel='noreferrer'>Download Resume</a></button>
+                <Link to={pdf} target="_blank" className='btn btn-sm  btn-outline btn-accent hover:text-[#808dad] my-5 animate__animated animate__pulse animate__faster animate__repeat-3'>Download Resume</Link>
 
                 <div className='flex gap-x-5 my-5 '>
                     <div className='flex flex-col w-14 items-center'>

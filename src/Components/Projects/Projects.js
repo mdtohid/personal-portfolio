@@ -54,8 +54,8 @@ const Projects = () => {
                             <img src={img1} alt="" />
                             <div className='projectContent flex flex-col items-center justify-center gap-3'>
                                 <div className='flex items-center justify-center gap-3'>
-                                    <Link to={'https://mdtohid.github.io/Netbook-website/'} className="btn btn-sm btn-success">Live link</Link>
-                                    <Link to={'https://github.com/mdtohid/Netbook-website'} className="btn btn-sm btn-warning">Client code link</Link>
+                                    <Link target="_blank" to={'https://mdtohid.github.io/Netbook-website/'} className="btn btn-sm btn-success">Live link</Link>
+                                    <Link target="_blank" to={'https://github.com/mdtohid/Netbook-website'} className="btn btn-sm btn-warning">Client code link</Link>
                                 </div>
                             </div>
                         </div>
@@ -65,10 +65,10 @@ const Projects = () => {
                             <img src={img2} alt="" />
                             <div className='projectContent flex flex-col items-center justify-center gap-3'>
                                 <div className='flex items-center justify-center gap-3'>
-                                    <Link to={'https://assignment-12-4ff33.web.app/'} className="btn btn-sm btn-success">Live link</Link>
-                                    <Link to={'https://github.com/mdtohid/Trs-project-client-side'} className="btn btn-sm btn-warning">Client code link</Link>
+                                    <Link target="_blank" to={'https://assignment-12-4ff33.web.app/'} className="btn btn-sm btn-success">Live link</Link>
+                                    <Link target="_blank" to={'https://github.com/mdtohid/Trs-project-client-side'} className="btn btn-sm btn-warning">Client code link</Link>
                                 </div>
-                                <Link to={'https://github.com/mdtohid/Trs-project-server-side'} className="btn btn-sm btn-error">Server code link</Link>
+                                <Link target="_blank" to={'https://github.com/mdtohid/Trs-project-server-side'} className="btn btn-sm btn-error">Server code link</Link>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -77,10 +77,10 @@ const Projects = () => {
                             <img src={img3} alt="" />
                             <div className='projectContent flex flex-col items-center justify-center gap-3'>
                                 <div className='flex items-center justify-center gap-3'>
-                                    <Link to={'https://assignment-11-client-sid-371c0.web.app/'} className="btn btn-sm btn-success">Live link</Link>
-                                    <Link to={'https://github.com/mdtohid/Dream-Fruit'} className="btn btn-sm btn-warning">Client code link</Link>
+                                    <Link target="_blank" to={'https://assignment-11-client-sid-371c0.web.app/'} className="btn btn-sm btn-success">Live link</Link>
+                                    <Link target="_blank" to={'https://github.com/mdtohid/Dream-Fruit'} className="btn btn-sm btn-warning">Client code link</Link>
                                 </div>
-                                <Link to={'https://github.com/mdtohid/Dream-Fruit-server-side'} className="btn btn-sm btn-error">Server code link</Link>
+                                <Link target="_blank" to={'https://github.com/mdtohid/Dream-Fruit-server-side'} className="btn btn-sm btn-error">Server code link</Link>
                             </div>
                         </div>
                     </SwiperSlide>
