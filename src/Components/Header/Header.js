@@ -28,13 +28,13 @@ const Header = () => {
                 </ul>
                 <div className='flex gap-x-3'>
                     <p>|</p>
-                    <Link className='' to='https://www.facebook.com/md.tohidur.rahman.714'>
+                    <Link target="_blank" className='' to='https://www.facebook.com/md.tohidur.rahman.714'>
                     <img src={fbImg} alt="" sizes="" srcset="" />
                     </Link>
-                    <Link to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
+                    <Link target="_blank" to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
                     <img src={LiImg} alt="" sizes="" srcset="" />
                     </Link>
-                    <Link to='https://github.com/mdtohid'>
+                    <Link target="_blank" to='https://github.com/mdtohid'>
                     <img src={githubImg} alt="" sizes="" srcset="" />
                     </Link>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import portfolioImg from '../../img/trs3.jpeg';
-import pdf from '../../img/Md.Tohid-Resume-developer.pdf';
+import pdf from '../../img/Tohid-new-resume.pdf';
 import fbImg from '../../img/facebook (1).png'
 import LiImg from '../../img/linkedin (1).png'
 import githubImg from '../../img/github.png'
@@ -21,27 +21,27 @@ const Intro = () => {
 
                 <h3 className='text-2xl'>Front end Web Developer</h3>
 
-                <button className='btn btn-sm me-3 btn-success my-5'><a href="https://www.linkedin.com/in/md-tohidur-rahman-a02087262/">Hire me</a> </button>
+                <button className='btn btn-sm me-3 btn-success my-5'><a  href="https://www.linkedin.com/in/md-tohidur-rahman-a02087262/" target="_blank" rel='noreferrer'>Hire me</a> </button>
 
-                <button className='btn btn-sm  btn-outline btn-accent hover:text-[#808dad] my-5 animate__animated animate__pulse animate__faster animate__repeat-3'><a href={pdf}>Download Resume</a></button>
+                <button className='btn btn-sm  btn-outline btn-accent hover:text-[#808dad] my-5 animate__animated animate__pulse animate__faster animate__repeat-3'><a href={pdf} target="_blank" rel='noreferrer'>Download Resume</a></button>
 
                 <div className='flex gap-x-5 my-5 '>
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://www.facebook.com/md.tohidur.rahman.714'>
+                        <Link target="_blank" to='https://www.facebook.com/md.tohidur.rahman.714'>
                             <img src={fbImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>facebook</p>
                     </div>
 
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
+                        <Link target="_blank" to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
                             <img src={LiImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>Linkedin</p>
                     </div>
 
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://github.com/mdtohid'>
+                        <Link target="_blank" to='https://github.com/mdtohid'>
                             <img src={githubImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>Github</p>

@@ -52,21 +52,21 @@ const Contact = () => {
 
                 <div className='flex gap-x-5 my-5'>
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://www.facebook.com/md.tohidur.rahman.714'>
+                        <Link target="_blank" to='https://www.facebook.com/md.tohidur.rahman.714'>
                             <img src={fbImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>facebook</p>
                     </div>
 
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
+                        <Link target="_blank" to='https://www.linkedin.com/in/md-tohidur-rahman-a02087262/'>
                             <img src={LiImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>Linkedin</p>
                     </div>
 
                     <div className='flex flex-col w-14 items-center'>
-                        <Link to='https://github.com/mdtohid'>
+                        <Link target="_blank" to='https://github.com/mdtohid'>
                             <img src={githubImg} alt="" sizes="" srcset="" />
                         </Link>
                         <p className='text-sm'>Github</p>
