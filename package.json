@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "daisyui": "^2.51.6",
+    "framer-motion": "^11.1.7",
     "node": "^21.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
