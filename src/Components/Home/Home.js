@@ -3,6 +3,7 @@ import Contact from "../Contact/Contact";
 import Intro from "../Intro/Intro";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
+import SkillDisplay from "../SkillDisplay/SkillDisplay";
 
 const Home = () => {
   return (
@@ -14,6 +15,4 @@ const Home = () => {
     </div>
   );
 };
-// dsfsdf
-// dsfsdf
 export default Home;

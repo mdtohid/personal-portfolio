@@ -1,0 +1,12 @@
+@keyframes fillProgress {
+  from {
+    stroke-dashoffset: 754.2857142857142;
+  }
+  to {
+    stroke-dashoffset: calc(754.2857142857142 - (95 / 100) * 754.2857142857142);
+  }
+}
+
+.animate-progress {
+  animation: fillProgress 3s forwards; /* forwards to retain the final state of animation */
+}
