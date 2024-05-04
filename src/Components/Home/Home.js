@@ -7,7 +7,7 @@ import SkillDisplay from "../SkillDisplay/SkillDisplay";
 
 const Home = () => {
   return (
-    <div className="px-2 md:px-8 lg:px-28">
+    <div className="px-5 md:px-8 lg:px-16">
       <Intro></Intro>
       <Skills></Skills>
       <Projects></Projects>

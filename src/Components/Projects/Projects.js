@@ -41,26 +41,26 @@ const Projects = () => {
         These are Some of my recent projects done past 5-6 months.
       </p>
 
-      <div className="grid grid-cols-2 gap-5  w-full">
-        <div className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-lg opacity-95 hover:opacity-100 transition ease-in-out delay-150 shadow-xl hover:skew-x-[2deg]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full">
+        <button className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-2xl opacity-95 hover:opacity-100 border border-transparent hover:border-[#b6b6b6]/20 shadow-xl hover:scale-105 transition-all ease duration-500 cardProject ">
           {/* header part */}
-          <div className="flex flex-row justify-between mb-16 pe-[2rem] ">
-            <p>NetBook</p>
-            <div className="flex gap-3">
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+          <div className="flex flex-col lg:flex-row items-start lg:justify-between gap-5 lg:gap-10 mb-16 pe-[2rem] ">
+            <p className="text-lg font-bold text-[#757575]">NetBook</p>
+            <div className="">
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Live Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Github Code Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Server Code Link
               </button>
             </div>
           </div>
           {/* image part */}
-          <div className="flex flex-row justify-between items-end">
-            <button className="p-2 mb-[2rem] rounded-full border border-white">
+          <div className="flex flex-row justify-between items-end ">
+            <button className="p-2 mb-[2rem] rounded-full border border-white rotateArrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20px"
@@ -73,29 +73,29 @@ const Projects = () => {
                 ></path>
               </svg>
             </button>
-            <img className="w-8/12" src={projectX} alt="" />
+            <img className="w-10/12 md:w-8/12" src={projectX} alt="" />
           </div>
-        </div>
+        </button>
 
-        <div className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-lg opacity-95 hover:opacity-100 transition ease-in-out delay-150 shadow-xl">
+        <button className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-2xl opacity-95 hover:opacity-100 border border-transparent hover:border-[#b6b6b6]/20 shadow-xl hover:scale-105 transition-all ease duration-500 cardProject ">
           {/* header part */}
-          <div className="flex flex-row justify-between mb-16 pe-[2rem] ">
-            <p>NetBook</p>
-            <div className="flex gap-3">
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+          <div className="flex flex-col lg:flex-row items-start lg:justify-between gap-5 lg:gap-10 mb-16 pe-[2rem] ">
+            <p className="text-lg font-bold text-[#757575]">NetBook</p>
+            <div className="">
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Live Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Github Code Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Server Code Link
               </button>
             </div>
           </div>
           {/* image part */}
-          <div className="flex flex-row justify-between items-end">
-            <button className="p-2 mb-[2rem] rounded-full border border-white">
+          <div className="flex flex-row justify-between items-end ">
+            <button className="p-2 mb-[2rem] rounded-full border border-white rotateArrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20px"
@@ -108,29 +108,29 @@ const Projects = () => {
                 ></path>
               </svg>
             </button>
-            <img className="w-8/12" src={projectX} alt="" />
+            <img className="w-10/12 md:w-8/12" src={projectX} alt="" />
           </div>
-        </div>
+        </button>
 
-        <div className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-lg opacity-95 hover:opacity-100 transition ease-in-out delay-150 shadow-xl">
+        <button className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-2xl opacity-95 hover:opacity-100 border border-transparent hover:border-[#b6b6b6]/20 shadow-xl hover:scale-105 transition-all ease duration-500 cardProject ">
           {/* header part */}
-          <div className="flex flex-row justify-between mb-16 pe-[2rem] ">
-            <p>NetBook</p>
-            <div className="flex gap-3">
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+          <div className="flex flex-col lg:flex-row items-start lg:justify-between gap-5 lg:gap-10 mb-16 pe-[2rem] ">
+            <p className="text-lg font-bold text-[#757575]">NetBook</p>
+            <div className="">
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Live Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Github Code Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Server Code Link
               </button>
             </div>
           </div>
           {/* image part */}
-          <div className="flex flex-row justify-between items-end">
-            <button className="p-2 mb-[2rem] rounded-full border border-white">
+          <div className="flex flex-row justify-between items-end ">
+            <button className="p-2 mb-[2rem] rounded-full border border-white rotateArrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20px"
@@ -143,29 +143,29 @@ const Projects = () => {
                 ></path>
               </svg>
             </button>
-            <img className="w-8/12" src={projectX} alt="" />
+            <img className="w-10/12 md:w-8/12" src={projectX} alt="" />
           </div>
-        </div>
+        </button>
 
-        <div className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-lg opacity-95 hover:opacity-100 transition ease-in-out delay-150 shadow-xl">
+        <button className="bg-[#1c1c1c] hover:bg-[#111111] pt-[2rem] pl-[2rem] rounded-2xl opacity-95 hover:opacity-100 border border-transparent hover:border-[#b6b6b6]/20 shadow-xl hover:scale-105 transition-all ease duration-500 cardProject ">
           {/* header part */}
-          <div className="flex flex-row justify-between mb-16 pe-[2rem] ">
-            <p>NetBook</p>
-            <div className="flex gap-3">
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+          <div className="flex flex-col lg:flex-row items-start lg:justify-between gap-5 lg:gap-10 mb-16 pe-[2rem] ">
+            <p className="text-lg font-bold text-[#757575]">NetBook</p>
+            <div className="">
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Live Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Github Code Link
               </button>
-              <button className="text-sm px-4 py-1 border border-black/50 rounded-xl">
-                github
+              <button className="text-sm text-[#757575] font-bold px-4 py-1 border border-[#b6b6b6]/20 rounded-lg me-2 my-1 float-left">
+                Server Code Link
               </button>
             </div>
           </div>
           {/* image part */}
-          <div className="flex flex-row justify-between items-end">
-            <button className="p-2 mb-[2rem] rounded-full border border-white">
+          <div className="flex flex-row justify-between items-end ">
+            <button className="p-2 mb-[2rem] rounded-full border border-white rotateArrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20px"
@@ -178,9 +178,9 @@ const Projects = () => {
                 ></path>
               </svg>
             </button>
-            <img className="w-8/12" src={projectX} alt="" />
+            <img className="w-10/12 md:w-8/12" src={projectX} alt="" />
           </div>
-        </div>
+        </button>
       </div>
 
       {/* <>

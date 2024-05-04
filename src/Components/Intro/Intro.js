@@ -12,9 +12,9 @@ const Intro = () => {
   return (
     <div
       id="home"
-      className="flex flex-col-reverse md:flex-row justify-center items-center gap-y-20 h-screen"
+      className="flex flex-col-reverse md:flex-row justify-center items-center gap-y-20 md:h-screen pt-20 md:pt-0"
     >
-      <div className="text-start w-full lg:w-6/12 ">
+      <div className="text-start w-full lg:w-6/12">
         <motion.div
           initial={{ y: -100 }}
           animate={{ y: 0 }}
